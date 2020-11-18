@@ -1,0 +1,30 @@
+{
+  "name": "autodnsupdater",
+  "version": "1.0.0",
+  "description": "auto update dns",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "undefined"
+  },
+  "keywords": [
+    "Free",
+    "DNS",
+    "Update",
+    "Dynamic"
+  ],
+  "author": "Fiambre",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.14.7",
+    "axios": "^0.21.0",
+    "node-cron": "^2.0.3",
+    "node-localstorage": "^2.1.6",
+    "psl": "^1.8.0",
+    "public-ip": "^4.0.2"
+  }
+}
